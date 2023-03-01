@@ -1,0 +1,52 @@
+{
+    files = {
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/CrossFadeNode.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/ShaderArgsBuilder.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/RepeatingRadialGradientNode.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/RepeatNode.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/Renderer.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/LinearGradientNode.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/GLShaderNode.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/ContainerNode.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/GLRenderer.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/BlendNode.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/TextureNode.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/RepeatingLinearGradientNode.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/OutsetShadowNode.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/RadialGradientNode.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/RenderNode.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/InsetShadowNode.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/BroadwayRenderer.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/OpacityNode.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/ColorMatrixNode.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/GLShader.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/TextNode.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/BorderNode.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/RoundedClipNode.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/NglRenderer.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/BlurNode.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/ConicGradientNode.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/CairoNode.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/Transform.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/RoundedRect.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/TransformNode.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/ColorNode.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/ClipNode.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/CairoRenderer.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/DebugNode.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/ShadowNode.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/c/types.d.o",
+        "build/.objs/gsk/linux/x86_64/release/generated/gsk/c/functions.d.o"
+    },
+    values = {
+        "/usr/bin/dmd",
+        {
+            "-shared",
+            "-fPIC",
+            "-m64",
+            "-L-L/usr/local/lib/x86_64-linux-gnu",
+            "-L-Lbuild/linux/x86_64/release",
+            "-L-lgtkd"
+        }
+    }
+}

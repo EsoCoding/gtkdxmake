@@ -1,0 +1,40 @@
+{
+    files = {
+        "build/.objs/harfbuzz/linux/x86_64/release/generated/harfbuzz/set_t.d.o",
+        "build/.objs/harfbuzz/linux/x86_64/release/generated/harfbuzz/feature_t.d.o",
+        "build/.objs/harfbuzz/linux/x86_64/release/generated/harfbuzz/blob_t.d.o",
+        "build/.objs/harfbuzz/linux/x86_64/release/generated/harfbuzz/map_t.d.o",
+        "build/.objs/harfbuzz/linux/x86_64/release/generated/harfbuzz/font_t.d.o",
+        "build/.objs/harfbuzz/linux/x86_64/release/generated/harfbuzz/variation_t.d.o",
+        "build/.objs/harfbuzz/linux/x86_64/release/generated/harfbuzz/glyph_position_t.d.o",
+        "build/.objs/harfbuzz/linux/x86_64/release/generated/harfbuzz/segment_properties_t.d.o",
+        "build/.objs/harfbuzz/linux/x86_64/release/generated/harfbuzz/unicode_funcs_t.d.o",
+        "build/.objs/harfbuzz/linux/x86_64/release/generated/harfbuzz/ot_math_glyph_part_t.d.o",
+        "build/.objs/harfbuzz/linux/x86_64/release/generated/harfbuzz/language_t.d.o",
+        "build/.objs/harfbuzz/linux/x86_64/release/generated/harfbuzz/ot_math_glyph_variant_t.d.o",
+        "build/.objs/harfbuzz/linux/x86_64/release/generated/harfbuzz/font_funcs_t.d.o",
+        "build/.objs/harfbuzz/linux/x86_64/release/generated/harfbuzz/glyph_info_t.d.o",
+        "build/.objs/harfbuzz/linux/x86_64/release/generated/harfbuzz/user_data_key_t.d.o",
+        "build/.objs/harfbuzz/linux/x86_64/release/generated/harfbuzz/buffer_t.d.o",
+        "build/.objs/harfbuzz/linux/x86_64/release/generated/harfbuzz/shape_plan_t.d.o",
+        "build/.objs/harfbuzz/linux/x86_64/release/generated/harfbuzz/face_t.d.o",
+        "build/.objs/harfbuzz/linux/x86_64/release/generated/harfbuzz/c/types.d.o",
+        "build/.objs/harfbuzz/linux/x86_64/release/generated/harfbuzz/c/functions.d.o"
+    },
+    values = {
+        "/usr/bin/dmd",
+        {
+            "-shared",
+            "-fPIC",
+            "-m64",
+            "-L-L/usr/local/lib/x86_64-linux-gnu",
+            "-L-Lbuild/linux/x86_64/release",
+            "-L-lharfbuzz-gobject",
+            "-L-lgobject-2.0",
+            "-L-lglib-2.0",
+            "-L-lharfbuzz-icu",
+            "-L-lharfbuzz",
+            "-L-lgtkd"
+        }
+    }
+}

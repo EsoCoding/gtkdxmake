@@ -1,0 +1,37 @@
+{
+    files = {
+        "build/.objs/graphene/linux/x86_64/release/generated/graphene/Triangle.d.o",
+        "build/.objs/graphene/linux/x86_64/release/generated/graphene/Vec3.d.o",
+        "build/.objs/graphene/linux/x86_64/release/generated/graphene/Matrix.d.o",
+        "build/.objs/graphene/linux/x86_64/release/generated/graphene/Plane.d.o",
+        "build/.objs/graphene/linux/x86_64/release/generated/graphene/Point3D.d.o",
+        "build/.objs/graphene/linux/x86_64/release/generated/graphene/Euler.d.o",
+        "build/.objs/graphene/linux/x86_64/release/generated/graphene/Rect.d.o",
+        "build/.objs/graphene/linux/x86_64/release/generated/graphene/Size.d.o",
+        "build/.objs/graphene/linux/x86_64/release/generated/graphene/Box.d.o",
+        "build/.objs/graphene/linux/x86_64/release/generated/graphene/Point.d.o",
+        "build/.objs/graphene/linux/x86_64/release/generated/graphene/Vec4.d.o",
+        "build/.objs/graphene/linux/x86_64/release/generated/graphene/Frustum.d.o",
+        "build/.objs/graphene/linux/x86_64/release/generated/graphene/Sphere.d.o",
+        "build/.objs/graphene/linux/x86_64/release/generated/graphene/Vec2.d.o",
+        "build/.objs/graphene/linux/x86_64/release/generated/graphene/Quaternion.d.o",
+        "build/.objs/graphene/linux/x86_64/release/generated/graphene/Quad.d.o",
+        "build/.objs/graphene/linux/x86_64/release/generated/graphene/Ray.d.o",
+        "build/.objs/graphene/linux/x86_64/release/generated/graphene/c/types.d.o",
+        "build/.objs/graphene/linux/x86_64/release/generated/graphene/c/functions.d.o"
+    },
+    values = {
+        "/usr/bin/dmd",
+        {
+            "-shared",
+            "-fPIC",
+            "-m64",
+            "-L-L/usr/local/lib/x86_64-linux-gnu",
+            "-L-Lbuild/linux/x86_64/release",
+            "-L-lgraphene-1.0",
+            "-L-lgobject-2.0",
+            "-L-lglib-2.0",
+            "-L-lgtkd"
+        }
+    }
+}
