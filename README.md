@@ -1,0 +1,2 @@
+# gtkdxmake
+gtkxmake
